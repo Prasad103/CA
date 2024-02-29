@@ -1,0 +1,91 @@
+/*************************
+*******Typography******
+**************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.team-table {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-spacing: 0px;
+    border-color: #333;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.team-table>tbody>tr>td {
+    border-color: #333;
+}
+
+#tbl_forcss1 th,
+#tbl_forcss1 td {
+    padding: 0 5px;
+}
+
+.form-bx {
+    min-width: 80px;
+}
+
+.team-table td img {
+    height: 20px;
+}
+
+.main-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.main-heading span {
+    position: relative;
+}
+
+.main-heading span:after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background: #333;
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    max-width: 80px;
+}
+
+.main-heading span:before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background: #333;
+    bottom: -7px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    max-width: 60px;
+}
+
+/*table table td:first-child{padding-left:0;}*/

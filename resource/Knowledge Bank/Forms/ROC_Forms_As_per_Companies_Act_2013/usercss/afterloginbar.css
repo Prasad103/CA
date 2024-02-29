@@ -1,0 +1,19 @@
+#editcontrol .navbar-default {
+    background-color: #0d5bb0 !important;
+}
+
+#editcontrol .navbar-default .navbar-nav>li>a:focus,
+#editcontrol .navbar-default .navbar-nav>li>a:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+#editcontrol .dropdown-menu>li>a:focus,
+#editcontrol .dropdown-menu>li>a:hover {
+    background-color: #0d5bb0 !important;
+    color: #fff !important;
+}
+
+#editcontrol .dropdown-menu>li>a {
+    color: #333;
+}

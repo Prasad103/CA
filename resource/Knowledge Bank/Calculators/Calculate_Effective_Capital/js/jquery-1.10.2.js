@@ -1,0 +1,1 @@
+No Content: http://cascg.in/resources/Calculators/Calculate_Effective_Capital/js/jquery-1.10.2.js

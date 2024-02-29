@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+    font-family: arial;
+    font-size: 13px;
+    line-height: 20px;
+    color: #555;
+}
+
+#blog {
+    margin-top: 30px;
+}
+
+#blog p {
+    font-family: arial;
+    font-size: 13px !important;
+}
+
+#blog h3 {
+    font-weight: bold;
+    Font-size: 18px;
+    color: #065695;
+    border-bottom: 1px #ccc dashed;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#blog .bheading h4 {
+    background: #065695;
+    color: #fff;
+    line-height: 43px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#blog .nav>li a {
+    color: #444;
+    background: #fff;
+    transition: 0.5s;
+    padding: 7px 4px;
+    border-bottom: 1px dashed;
+    border-bottom: 1px dashed #aba8a8;
+}
+
+#blog .nav>li a:hover {
+    color: #036;
+    padding-left: 15px;
+    transition: 0.5s;
+}
+
+#blog ul li:hove {
+    transition: 0.5s;
+    padding-left: 5px;
+}
+
+#blog .nav>li {
+    position: relative;
+}
+
+#blog .nav>li:before {
+    font-family: FontAwesome !important;
+    font-size: 15px;
+    position: absolute;
+    color: #065695;
+    content: "\f0a4";
+    left: -20px;
+    top: 9px;
+}
+
+.bheading {
+    border: 1px solid #073c61;
+}
+
+#blog ul {
+    /* margin: 0px 5px 0px 34px;*/
+    font-family: arial;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+#blog .nav li {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+#blog .Content a {
+    text-decoration: none !important;
+    color: #fff !important;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #065695;
+    width: 90px;
+}
+
+#blog .comment {
+    font-style: italic;
+}
+
+#blog .well {
+    line-height: 24px;
+}
+
+#blog .well #HomepagecontentControl_C_ctl00_Label1 {
+    font-weight: bold;
+    Font-size: 20px !important;
+    color: #065695;
+    line-height: 36px;
+}
+
+#blog .well #HomepagecontentControl_C_ctl00_Label2 {
+    font-style: italic;
+    font-size: 15px;
+}
+
+#blog .nav .nav-divider {
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+#blog .comments input[type=submit] {
+    margin-top: 20px;
+}
+
+#blog .RadGrid_Default .rgMasterTable {
+    font-family: arial;
+}
+
+#blog .comments {
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 16px;
+    border: 1px dashed #ccc;
+}
+
+.bcontent h2 {
+    text-align: justify;
+}
+
+#blog .comments h3 {
+    font-size: 16px;
+}
+
+span.glyphicon.glyphicon-user {
+    border: 1px solid #065695;
+    padding: 15px;
+    border-radius: 50%;
+    color: #065695;
+}

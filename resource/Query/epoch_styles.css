@@ -1,0 +1,111 @@
+table.calendar {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+    background-color: white;
+    border: outset #cccccc 4px;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    /*prevent user from selecting text in Mozilla & Safari - check calendar constructor for IE code)*/
+    -moz-user-select: none;
+    /*-khtml-user-select: none;*/
+}
+
+table.calendar input {
+    font-size: 10px;
+}
+
+table.calendar select {
+    font-size: 10px;
+    width: 55px;
+}
+
+table.calendar td {
+    border: 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+div.mainheading {
+    margin: 2px;
+}
+
+table.caldayheading {
+    border-collapse: collapse;
+    cursor: pointer;
+    empty-cells: show;
+    margin: 0 6px 0 6px;
+}
+
+table.caldayheading td {
+    border: solid #333 1px;
+    text-align: center;
+    color: #0054E3;
+    font-weight: bold;
+    width: 22px;
+    /*should match calendar cell's width*/
+}
+
+table.caldayheading td.wkhead {
+    border: solid #333 1px;
+}
+
+table.calcells {
+    border-collapse: collapse;
+    cursor: pointer;
+    margin: 0 6px 0 6px;
+}
+
+table.calcells td {
+    border: solid #333 1px;
+    vertical-align: top;
+    text-align: center;
+    font-weight: bold;
+    width: 22px;
+    height: 20px;
+    /*IE doesn't like ems*/
+}
+
+table.calcells td div {
+    padding: 1px;
+    margin: 0;
+}
+
+table.calcells td.wkhead {
+    background-color: white;
+    text-align: center;
+    border: solid #333 1px;
+    color: #0054E3;
+}
+
+table.calcells td.wkday {
+    background-color: #DDDDDD;
+}
+
+table.calcells td.wkend {
+    background-color: #DDDDDD;
+}
+
+table.calcells td.curdate {}
+
+table.calcells td.cell_selected {
+    background-color: #99CCFF;
+    color: black;
+}
+
+table.calcells td.notmnth {
+    background-color: #FFFFFF;
+    color: #CCCCCC;
+}
+
+table.calcells td.notallowed {
+    background-color: white;
+    color: #EEEEEE;
+    font-style: italic;
+}
+
+table.calcells td.hover {
+    background-color: #FF6600;
+    color: #FFFFFF;
+}
